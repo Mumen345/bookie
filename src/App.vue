@@ -68,19 +68,6 @@ body {
   opacity: .7;
 }
 
-@media screen and (max-width: 500px) {
-  .secondary_button {
-    font-size: 14px;
-    height: 55px;
-    line-height: 55px;
-    width: 100%;
-  }
-
-  .btn_grad {
-    width: 95%;
-    box-sizing: border-box;
-  }
-}
 
 
 .btn_grad {
@@ -240,6 +227,26 @@ h2 {
 
   .primary_button {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .secondary_button {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 100%;
+  }
+
+  .btn_grad {
+    width: 95%;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: NunitoBlack !important;
+    line-height: 40.294px;
   }
 }
 </style>
