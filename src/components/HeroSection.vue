@@ -3,7 +3,7 @@
         <div class="  hero_section">
             <div class="left_div">
                 <h1 class="">Ready to Elevate Your Visitor Experience?</h1>
-                <p class="">Sign up for Booktime today and experience a new
+                <p class="hero_text">Sign up for Booktime today and experience a new
                     level
                     of visitor management. Join
                     businesses worldwide
@@ -115,6 +115,8 @@ export default {
         background-image: none;
         background-color: #EFF2F5;
         height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
@@ -126,6 +128,15 @@ export default {
         height: auto;
         padding-bottom: 30px;
         padding-top: 30px;
+    }
+
+    .hero_text {
+        color: #1B1B1B;
+        font-family: NunitoMedium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 200.5%;
     }
 }
 
