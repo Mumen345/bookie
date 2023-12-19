@@ -232,5 +232,9 @@ h2 {
     font-size: 40px;
     line-height: 135.036%;
   }
+
+  .primary_button {
+    width: 100% !important;
+  }
 }
 </style>
