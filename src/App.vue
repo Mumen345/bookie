@@ -16,13 +16,121 @@ nav a.router-link-exact-active {
   color: #1B1B1B;
   // background-color: #eff2f5;
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1600px;
 }
 
 body {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1600px;
 }
+
+.black_button {
+  background-color: #000000;
+  width: 150px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.secondary_button {
+  background-color: initial;
+  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 190px;
+}
+
+.secondary_button:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 500px) {
+  .secondary_button {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 100%;
+  }
+}
+
+
+.btn_grad {
+  background-image: linear-gradient(to right, #004C99 0%, #31C580 51%, #004C99 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  border: none;
+  display: block;
+}
+
+.btn_grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.primary_button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: NunitoMedium;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 180px;
+  z-index: 9;
+  border: 0;
+}
+
+.primary_button:hover {
+  background: #00bd68;
+}
+
 
 a {
   color: inherit;

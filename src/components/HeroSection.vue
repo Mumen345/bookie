@@ -1,17 +1,14 @@
 <template>
     <div class="hero_container">
         <div class="  hero_section">
-            <div class="left_div animated flipInX">
+            <div class="left_div">
                 <h1>Ready to Elevate Your Visitor Experience?</h1>
                 <p class="hero_text">Sign up for Booktime today and experience a new level of visitor management. Join
                     businesses worldwide
                     that
                     trust Booktime for a secure, efficient, and modern approach to welcoming guests.</p>
-                <div>
-                    <!-- <mdb-btn size="lg" tag="a" role="button" href="mailto:hello@booktime.ng" color="deep-purple">
-                        Book a demo</mdb-btn> -->
-                    <button>Rewuest a Demo</button>
-                </div>
+
+                <button class="secondary_button">Request a Demo</button>
             </div>
             <div class="  right_img animated pulse infinite">
                 <img class="dashboard" src="../assets/images/hero_img.svg" alt="" srcset="">
@@ -60,6 +57,8 @@ export default {
 .left_div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 5px;
 }

@@ -15,7 +15,7 @@
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
             </div>
-            <mdb-btn size="lg" tag="a" role="button" href="#" color="black">Login</mdb-btn>
+            <button class="btn_grad">Login</button>
         </div>
         <div class="topnav">
             <router-link v-scroll-to="{ el: '#home', onDone: onDone, onCancel: onCancel }" to="#">

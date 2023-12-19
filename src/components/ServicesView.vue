@@ -6,7 +6,7 @@
             <p>At BookTime, we are more than just a visitor management platform; we are your partner in creating a secure,
                 efficient, and welcoming workplace. Join us on this journey of innovation and let BookTime transform the way
                 you manage workplace visits.</p>
-            <button class="btn btn-black">Send us a Message</button>
+            <button class="secondary_button">Request a Demo</button>
         </div>
         <div class="right_container">
             <div v-animateOnScroll="'fadeInRightBig'" class="section_1">

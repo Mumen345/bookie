@@ -8,9 +8,9 @@
     </div> -->
 
     <div class="footer-copyright text-center py-3 footer_container ">
-        <!-- <mdb-container color="black" fluid>
+        <div>
             &copy; 2023 Copyright: <a href="#"> damdamglobal.com </a>
-        </mdb-container> -->
+        </div>
     </div>
 </template>
 

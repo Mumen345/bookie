@@ -11,7 +11,8 @@
                     <!-- <mdb-btn size="lg" tag="a" role="button" href="mailto:hello@booktime.ng" color="deep-purple">Send us a
                         Mail
                         us</mdb-btn> -->
-                    <button>Book a Demo</button>
+                    <button class="black_button">Request a Demo</button>
+
                 </div>
                 <img class="animated zoomInLeft" src="../assets/images/girl.png" alt="">
             </div>
@@ -20,9 +21,11 @@
 
 
                 </div>
-                <div class="light-blue darken-3 bottom_div text-light animated zoomInRight">
+                <div class="bottom_div">
                     <div>
-                        <h2 class="text-light">324+</h2>
+                        <h2 class="">
+                            <VueCount /> +
+                        </h2>
                         <p>People have paid their
                             Taxes today</p>
                     </div>
@@ -36,10 +39,12 @@
 </template>
 
 <script>
+import VueCount from './VueCount.vue';
+
 // import { mdbBtn } from 'mdbvue';
 export default {
     name: "featuresView",
-    // components: { mdbBtn, }
+    components: { VueCount }
 }
 </script>
 
@@ -76,7 +81,7 @@ h3 {
     height: 500px;
     width: 100%;
     border-radius: 20px;
-    background-color: #25D366;
+    background-color: #8f00ff;
 }
 
 .white_container {
@@ -86,13 +91,17 @@ h3 {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    background: #ffffff;
+    background: #6590ff;
     border-radius: 20px;
     padding: 30px 50px;
 }
 
+.white_container h3 {
+    color: #ffffff;
+}
+
 .white_container p {
-    color: #111;
+    color: #ffffff;
     font-family: NunitoRegular;
     font-size: 14px;
     font-style: normal;
@@ -114,6 +123,7 @@ h3 {
 .bottom_div {
     border-radius: 20px;
     padding: 20px;
+    background-color: #25D366;
 }
 
 .right_div {
