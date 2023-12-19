@@ -163,14 +163,16 @@ h3 {
     }
 
     .white_container {
-        // height: 300px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        background: #ffffff;
         border-radius: 20px;
+        background-image: linear-gradient(to right, #004C99 0%, #31C580 51%, #004C99 100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        // height: 300px;
         padding: 30px;
     }
 

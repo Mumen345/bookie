@@ -56,7 +56,7 @@ body {
   margin-left: -4px;
   outline: 0;
   text-align: center;
-  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  transition: 2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

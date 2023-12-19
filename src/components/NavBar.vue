@@ -62,8 +62,8 @@ export default {
 <style scoped>
 .navBar {
     background-color: #EFF2F5;
-    position: -webkit-sticky;
-    position: sticky;
+    position: -webkit-sticky !important;
+    position: sticky !;
     top: 0;
     z-index: 200;
 
