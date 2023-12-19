@@ -125,6 +125,7 @@ export default {
         background-color: #EFF2F5;
         height: auto;
         padding-bottom: 30px;
+        padding-top: 30px;
     }
 }
 
