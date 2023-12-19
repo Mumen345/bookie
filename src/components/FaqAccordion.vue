@@ -42,6 +42,46 @@
                     that is just another styled radio input.</p>
             </div>
         </div>
+        <div class="tab">
+            <input type="radio" name="accordion-2" id="rd6">
+            <label for="rd6" class="tab__label">6. Lorem ipsum dolor sit amet.</label>
+            <div class="tab__content">
+                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
+                    that is just another styled radio input.</p>
+            </div>
+        </div>
+        <div class="tab">
+            <input type="radio" name="accordion-2" id="rd7">
+            <label for="rd7" class="tab__label">7. Lorem ipsum dolor sit amet.</label>
+            <div class="tab__content">
+                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
+                    that is just another styled radio input.</p>
+            </div>
+        </div>
+        <div class="tab">
+            <input type="radio" name="accordion-2" id="rd8">
+            <label for="rd8" class="tab__label">8. Lorem ipsum dolor sit amet.</label>
+            <div class="tab__content">
+                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
+                    that is just another styled radio input.</p>
+            </div>
+        </div>
+        <div class="tab">
+            <input type="radio" name="accordion-2" id="rd9">
+            <label for="rd9" class="tab__label">9. Lorem ipsum dolor sit amet.</label>
+            <div class="tab__content">
+                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
+                    that is just another styled radio input.</p>
+            </div>
+        </div>
+        <div class="tab">
+            <input type="radio" name="accordion-2" id="rd10">
+            <label for="rd10" class="tab__label">10. Lorem ipsum dolor sit amet.</label>
+            <div class="tab__content">
+                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
+                    that is just another styled radio input.</p>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -71,7 +111,7 @@ export default {
 /* Visual styles */
 .accordion {
     overflow: hidden;
-    height: 70vh;
+    margin-bottom: 100px;
 }
 
 .tab__label,

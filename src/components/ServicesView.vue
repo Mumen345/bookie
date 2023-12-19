@@ -1,6 +1,6 @@
 <template>
     <div class="service_section">
-        <div class="left_container animated bounce infinite">
+        <div class="left_container  animate__animated animate__backInLeft">
             <p class="tag_p">Our Services</p>
             <h3>The digital solution for efficient visit Management.</h3>
             <p>At BookTime, we are more than just a visitor management platform; we are your partner in creating a secure,
@@ -9,40 +9,40 @@
             <button class="secondary_button">Request a Demo</button>
         </div>
         <div class="right_container">
-            <div v-animateOnScroll="'fadeInRightBig'" class="section_1">
+            <div class="section_1">
 
-                <div class="small_div ">
+                <div class="small_div animate__animated animate__backInRight">
                     <img src="../assets/images/Icon.svg" alt="">
                     <h5>Agent Banking 1</h5>
                     <p>Stay updated, check your bank account to manage funds and track transactions securely.</p>
                 </div>
-                <div class="small_div ">
+                <div class="small_div animate__animated animate__backInRight">
                     <img src="../assets/images/Icon-1.svg" alt="">
                     <h5>Savings Account</h5>
                     <p>Securely save money, earn interest with a dedicated savings account.</p>
                 </div>
             </div>
-            <div v-animateOnScroll="'fadeInRightBig'" class="section_1">
+            <div class="section_1 ">
 
-                <div class="small_div ">
+                <div class="small_div animate__animated animate__backInRight">
                     <img src="../assets/images/Icon.svg" alt="">
                     <h5>Multiple Cards.</h5>
                     <p>Bank cards offer easy payments and cash withdrawals, enhancing financial accessibility.</p>
                 </div>
-                <div class="small_div ">
+                <div class="small_div animate__animated animate__backInRight">
                     <img src="../assets/images/Icon-3.svg" alt="">
                     <h5>Multiple Cards.</h5>
                     <p>SBank cards offer easy payments and cash withdrawals, enhancing financial accessibility.</p>
                 </div>
             </div>
-            <div v-animateOnScroll="'fadeInRightBig'" class="section_1">
+            <div class="section_1">
 
-                <div class="small_div ">
+                <div class="small_div animate__animated animate__backInRight">
                     <img src="../assets/images/Icon-2.svg" alt="">
                     <h5>Low Interest</h5>
                     <p>Bank yields meager interest, limiting earnings on deposited funds and investments.</p>
                 </div>
-                <div class="small_div ">
+                <div class="small_div animate__animated animate__backInRight">
                     <img src="../assets/images/Icon-1.svg" alt="">
                     <h5>Low Interest</h5>
                     <p>Bank yields meager interest, limiting earnings on deposited funds and investments.</p>

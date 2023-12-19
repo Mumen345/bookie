@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-
     <HeroSection id="home" />
     <ServicesView id="services" />
     <FeaturesView id="features" />

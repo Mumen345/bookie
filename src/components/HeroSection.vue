@@ -2,15 +2,17 @@
     <div class="hero_container">
         <div class="  hero_section">
             <div class="left_div">
-                <h1>Ready to Elevate Your Visitor Experience?</h1>
-                <p class="hero_text">Sign up for Booktime today and experience a new level of visitor management. Join
+                <h1 class="animate__animated animate__bounceInDown">Ready to Elevate Your Visitor Experience?</h1>
+                <p class="hero_text animate__animated animate__bounceInDown">Sign up for Booktime today and experience a new
+                    level
+                    of visitor management. Join
                     businesses worldwide
                     that
                     trust Booktime for a secure, efficient, and modern approach to welcoming guests.</p>
 
-                <button class="secondary_button">Request a Demo</button>
+                <button class="secondary_button animate__animated animate__bounceInDown">Request a Demo</button>
             </div>
-            <div class="  right_img animated pulse infinite">
+            <div class="  right_img animate__animated animate__pulse animate__infinite	infinite animate__slow	3s">
                 <img class="dashboard" src="../assets/images/hero_img.svg" alt="" srcset="">
             </div>
         </div>
@@ -18,9 +20,8 @@
 </template>
 
 <script>
-// import { mdbBtn } from 'mdbvue';
+import 'animate.css';
 export default {
-    // components: { mdbBtn, }
 }
 </script>
 

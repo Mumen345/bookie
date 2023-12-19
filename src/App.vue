@@ -17,6 +17,7 @@ nav a.router-link-exact-active {
   // background-color: #eff2f5;
   margin: 0 auto;
   max-width: 1600px;
+  overflow: hidden;
 }
 
 body {
