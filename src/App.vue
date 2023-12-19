@@ -75,6 +75,11 @@ body {
     line-height: 55px;
     width: 100%;
   }
+
+  .btn_grad {
+    width: 95%;
+    box-sizing: border-box;
+  }
 }
 
 

@@ -133,6 +133,7 @@ export default {
         background-image: none;
         background-color: #EFF2F5;
         height: auto;
+        padding-top: 30px;
 
     }
 

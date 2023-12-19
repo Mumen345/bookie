@@ -30,7 +30,7 @@
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
 
-                <mdb-btn size="lg" tag="a" role="button" href="#" color="success">Login</mdb-btn>
+                <button class="btn_grad">Login</button>
 
             </div>
             <a href="#" class="icon" @click="myFunctiion">
@@ -109,6 +109,7 @@ export default {
         position: relative;
         display: block;
         width: 100%;
+        box-sizing: border-box;
         transition: height 4s;
 
     }
@@ -117,7 +118,8 @@ export default {
         display: none;
         background: #ffffff;
         transition: max-height 650ms;
-
+        padding-bottom: 10px;
+        box-sizing: border-box;
 
     }
 
