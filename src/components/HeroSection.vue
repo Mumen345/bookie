@@ -2,7 +2,8 @@
     <div class="hero_container">
         <div class="  hero_section">
             <div class="left_div">
-                <h1 class="">Ready to Elevate Your Visitor Experience?</h1>
+                <h1 class="">Welcome to BookTime!
+                    Elevate Your Workplace Visit Management</h1>
                 <p class="hero_text">Sign up for Booktime today and experience a new
                     level
                     of visitor management. Join
@@ -12,15 +13,14 @@
 
                 <button class="secondary_button">Request a Demo</button>
             </div>
-            <div class="  right_img animate__animated animate__pulse animate__infinite	infinite animate__slow">
-                <img class="dashboard" src="../assets/images/hero_img.svg" alt="" srcset="">
+            <div class="">
+                <img id="breathing_img" class="dashboard" src="../assets/images/hero_img.svg" alt="" srcset="">
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import 'animate.css';
 export default {
 }
 </script>
@@ -67,6 +67,69 @@ export default {
 .right_img img {
     // width: 570px;
 }
+
+// Breathing animation for image
+#breathing_img {
+    width: 100%;
+    padding: 12px;
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    font-size: 16px;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 2px;
+}
+
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    25% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+// End Breathing image 
+
 
 
 @media only screen and (max-width: 1469px) {

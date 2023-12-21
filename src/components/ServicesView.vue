@@ -1,51 +1,53 @@
 <template>
     <div class="service_section">
-        <div class="left_container  animate__animated animate__backInLeft">
+        <div class="left_container">
             <p class="tag_p">Our Services</p>
-            <h3>The digital solution for efficient visit Management.</h3>
-            <p>At BookTime, we are more than just a visitor management platform; we are your partner in creating a secure,
-                efficient, and welcoming workplace. Join us on this journey of innovation and let BookTime transform the way
-                you manage workplace visits.</p>
+            <h3>Discover the Best in Efficient Visit Management with BookTime. </h3>
+            <p>We're not just a platform; we're your dedicated partner in creating a secure, efficient, and welcoming
+                workplace. Sign up now to transform your approach to managing workplace visits!"</p>
             <button class="secondary_button">Request a Demo</button>
         </div>
         <div class="right_container">
             <div class="section_1">
 
-                <div class="small_div animate__animated animate__backInRight">
+                <div class="small_div ">
                     <img src="../assets/images/Icon.svg" alt="">
-                    <h5>Agent Banking 1</h5>
-                    <p>Stay updated, check your bank account to manage funds and track transactions securely.</p>
+                    <h5>Seemless Check-Ins</h5>
+                    <p>Simplify visitor check-ins with our intuitive system, ensuring a seamless entry experience. <br></p>
                 </div>
-                <div class="small_div animate__animated animate__backInRight">
+                <div class="small_div  ">
                     <img src="../assets/images/Icon-1.svg" alt="">
-                    <h5>Savings Account</h5>
-                    <p>Securely save money, earn interest with a dedicated savings account.</p>
+                    <h5>Automated Scheduling</h5>
+                    <p>Save time and resources by automating appointment scheduling, making the process efficient.</p>
                 </div>
             </div>
             <div class="section_1 ">
 
-                <div class="small_div animate__animated animate__backInRight">
+                <div class="small_div  ">
                     <img src="../assets/images/Icon.svg" alt="">
-                    <h5>Multiple Cards.</h5>
-                    <p>Bank cards offer easy payments and cash withdrawals, enhancing financial accessibility.</p>
+                    <h5>Enhanced Security Measure</h5>
+                    <p>Prioritize workplace security with robust measures to safeguard sensitive information.
+
+                    </p>
                 </div>
-                <div class="small_div animate__animated animate__backInRight">
+                <div class="small_div  ">
                     <img src="../assets/images/Icon-3.svg" alt="">
-                    <h5>Multiple Cards.</h5>
-                    <p>SBank cards offer easy payments and cash withdrawals, enhancing financial accessibility.</p>
+                    <h5>Picture-perfect Visitor Experience.</h5>
+                    <p>Impress visitors with a modern and efficient check-in process, creating a positive first impression.
+                    </p>
                 </div>
             </div>
             <div class="section_1">
 
-                <div class="small_div animate__animated animate__backInRight">
+                <div class="small_div  ">
                     <img src="../assets/images/Icon-2.svg" alt="">
-                    <h5>Low Interest</h5>
-                    <p>Bank yields meager interest, limiting earnings on deposited funds and investments.</p>
+                    <h5>Secure Data Management</h5>
+                    <p>Ensure the safety and integrity of your data through our secure data management solutions.</p>
                 </div>
-                <div class="small_div animate__animated animate__backInRight">
+                <div class="small_div  ">
                     <img src="../assets/images/Icon-1.svg" alt="">
-                    <h5>Low Interest</h5>
-                    <p>Bank yields meager interest, limiting earnings on deposited funds and investments.</p>
+                    <h5>Customizable Solutions</h5>
+                    <p>Tailor BookTime to your organization's unique needs with flexible and customizable features.</p>
                 </div>
             </div>
         </div>

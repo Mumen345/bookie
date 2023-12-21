@@ -41,7 +41,6 @@
 </template>
 
 <script>
-import 'animate.css';
 import VueCount from './VueCount.vue';
 
 // import { mdbBtn } from 'mdbvue';
