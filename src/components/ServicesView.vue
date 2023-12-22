@@ -5,7 +5,7 @@
             <h3>Discover the Best in Efficient Visit Management with BookTime. </h3>
             <p>We're not just a platform; we're your dedicated partner in creating a secure, efficient, and welcoming
                 workplace. Sign up now to transform your approach to managing workplace visits!"</p>
-            <button class="secondary_button">Request a Demo</button>
+            <a href="mailto:info@damdam.com" class="secondary_button">Request a Demo</a>
         </div>
         <div class="right_container">
             <div class="section_1">
@@ -47,7 +47,7 @@
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-5.svg" alt="">
                     <h5>Customizable Solutions</h5>
-                    <p>Tailor BookTime to your organization's unique needs with flexible and customizable features.</p>
+                    <p>Tailor BookTime to your organization's unique needs with customizable features.</p>
                 </div>
             </div>
         </div>

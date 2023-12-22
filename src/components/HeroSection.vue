@@ -11,7 +11,7 @@
                     that
                     trust Booktime for a secure, efficient, and modern approach to welcoming guests.</p>
 
-                <button class="secondary_button">Request a Demo</button>
+                <a href="mailto:info@damdam.com" class="secondary_button">Request a Demo</a>
             </div>
             <div class="">
                 <img id="breathing_img" class="dashboard" src="../assets/images/hero_img.svg" alt="" srcset="">
@@ -66,9 +66,6 @@ export default {
     gap: 5px;
 }
 
-.right_img img {
-    // width: 570px;
-}
 
 // Breathing animation for image
 #breathing_img {
