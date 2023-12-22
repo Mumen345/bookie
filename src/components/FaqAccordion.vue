@@ -3,83 +3,12 @@
         <h1 class="text-center">Frequently Asked Questions</h1>
         <br />
         <br />
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd1">
-            <label for="rd1" class="tab__label">1. Lorem ipsum dolor sit amet.</label>
+        <div class="tab" v-for="question in questions" :key="question.id">
+            <input type="radio" name="accordion-2" :id="question.identity">
+            <label :for="question.for" class="tab__label">{{ question.questions }}
+            </label>
             <div class="tab__content">
-                <p>If you want to have only one tab open, you can use <code>&lt;input type="checkbox"&gt;</code>.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd2">
-            <label for="rd2" class="tab__label">2. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd3">
-            <label for="rd3" class="tab__label">3. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd4">
-            <label for="rd4" class="tab__label">4. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd5">
-            <label for="rd5" class="tab__label">5. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd6">
-            <label for="rd6" class="tab__label">6. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd7">
-            <label for="rd7" class="tab__label">7. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd8">
-            <label for="rd8" class="tab__label">8. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd9">
-            <label for="rd9" class="tab__label">9. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
-            </div>
-        </div>
-        <div class="tab">
-            <input type="radio" name="accordion-2" id="rd10">
-            <label for="rd10" class="tab__label">10. Lorem ipsum dolor sit amet.</label>
-            <div class="tab__content">
-                <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below,
-                    that is just another styled radio input.</p>
+                <p>{{ question.text }}</p>
             </div>
         </div>
     </section>
@@ -87,7 +16,75 @@
 
 <script>
 export default {
+    data() {
+        return {
+            questions:
+                [
+                    {
+                        for: "rd1",
+                        identity: "rd1",
+                        questions: "What makes BookTime great for managing visitors?",
+                        text: "BookTime simplifies visitor management with automated check-ins, easy appointment scheduling, and smooth communication.",
+                    },
+                    {
+                        for: "rd2",
+                        identity: "rd2",
+                        questions: "Can I customize BookTime for my business needs?",
+                        text: "Absolutely! BookTime is flexible, letting you customize it to match your brand and how you operate.",
+                    },
+                    {
+                        for: "rd3",
+                        identity: "rd3",
+                        questions: "How does BookTime keep my data safe?",
+                        text: "Your data is secure with BookTime. We've got strong measures in place to keep everything safe.",
+                    },
+                    {
+                        for: "rd4",
+                        identity: "rd4",
+                        questions: "How does the WhatsApp feature help staff communicate better?",
+                        text: "BookTime's WhatsApp feature lets staff chat with receptionists, making it easy to share availability and manage visitor wait times.",
+                    },
 
+                    {
+                        for: "rd5",
+                        identity: "rd5",
+                        questions: "Is BookTime easy to use on my phone?",
+                        text: "Yes, BookTime works great on your phone, so you can use it on the go.",
+                    },
+                    {
+                        for: "rd6",
+                        identity: "rd6",
+                        questions: "How do I set up automated appointments with BookTime?",
+                        text: "It's a breeze! BookTime's automated appointment setup is user-friendly, saving you time.",
+                    },
+                    {
+                        for: "rd7",
+                        identity: "rd7",
+                        questions: "Can staff easily update their availability?",
+                        text: "Definitely! Staff can tell the receptionist their availability through BookTime's WhatsApp, making updates quick.",
+                    },
+                    {
+                        for: "rd8",
+                        identity: "rd8",
+                        questions: "What kind of help does BookTime offer if I get stuck?",
+                        text: "BookTime's got your back! Reach out to our support team, or check out FAQs and guides for easy self-help.",
+                    },
+                    {
+                        for: "rd9",
+                        identity: "rd9",
+                        questions: " Is there a free trial for BookTime?",
+                        text: "Yes! You can try BookTime for free to see how it fits your needs.",
+                    },
+                    {
+                        for: "rd10",
+                        identity: "rd10",
+                        questions: "How do I get started with BookTime in my workplace?",
+                        text: "Easy peasy! Sign up, follow our simple onboarding, and start using BookTime to manage visitors hassle-free.",
+                    },
+
+                ]
+        }
+    },
 }
 </script>
 
@@ -114,13 +111,20 @@ export default {
     margin-bottom: 100px;
 }
 
+p {
+    font-size: 18px;
+}
+
 .tab__label,
 .tab__close {
     display: flex;
     background: #ffffff;
     cursor: pointer;
     border-bottom: 1px solid #eeeeee;
-    font-family: NunitoBold;
+    font-family: NunitoMedium;
+    color: #353535;
+    font-size: 21px;
+    margin-bottom: 20px;
 }
 
 .tab__label {

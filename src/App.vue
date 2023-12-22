@@ -95,7 +95,7 @@ body {
 
 .primary_button {
   background-color: initial;
-  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  background-image: linear-gradient(-180deg, #0064d7, #0019bd);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
   color: #FFFFFF;

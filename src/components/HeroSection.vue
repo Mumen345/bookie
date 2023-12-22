@@ -34,6 +34,8 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 60px !important;
+
 }
 
 .hero_section {
@@ -191,6 +193,7 @@ export default {
         height: auto;
         padding-bottom: 30px;
         padding-top: 30px;
+        margin-top: 40px !important;
     }
 
     .hero_text {
@@ -209,6 +212,7 @@ export default {
         background-color: #EFF2F5;
         height: auto;
         padding-top: 30px;
+        margin-top: 40px !important;
 
     }
 

@@ -63,9 +63,10 @@ export default {
 .navBar {
     background-color: #EFF2F5;
     position: -webkit-sticky !important;
-    position: sticky !;
+    position: fixed !important;
     top: 0;
     z-index: 200;
+    width: 100%;
 
 }
 

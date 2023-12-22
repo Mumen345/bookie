@@ -3,12 +3,11 @@
         <div class="container_cover">
             <div class="left_div">
                 <div class="white_container  animate__animated animate__backInLeft">
-                    <h3 class="  ">Lorem Ipsum Header</h3>
-                    <p class="">Lorem ipsum dolor sit amet consectetur. Netus cursus
-                        purus faucibus blandit project discussion elit
-                        faucibus potenti cum tempus non. Tortor id morbi velit mollis aliquet. us potenti cum tempus non.
-                        Tortor id morbi velit mollis aliquet. us potenti cum tempus non. Tortor id morbi velit mollis
-                        aliquet. </p>
+                    <h3 class="  ">Explore BookTime WhatsApp bot. </h3>
+                    <p class="">Discover our innovative WhatsApp bot, designed for seamless communication between staff and
+                        receptionists. With BookTime, staff can effortlessly share their availability for visitor
+                        rescheduling or manage wait times directly through the convenience of WhatsApp. Elevate your
+                        workplace efficiency – embark on a journey of instant communication today!</p>
                     <!-- <mdb-btn size="lg" tag="a" role="button" href="mailto:hello@booktime.ng" color="deep-purple">Send us a
                         Mail
                         us</mdb-btn> -->

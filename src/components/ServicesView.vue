@@ -24,7 +24,7 @@
             <div class="section_1 ">
 
                 <div class="small_div  ">
-                    <img src="../assets/images/Icon.svg" alt="">
+                    <img src="../assets/images/Icon-2.svg" alt="">
                     <h5>Enhanced Security Measure</h5>
                     <p>Prioritize workplace security with robust measures to safeguard sensitive information.
 
@@ -32,7 +32,7 @@
                 </div>
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-3.svg" alt="">
-                    <h5>Picture-perfect Visitor Experience.</h5>
+                    <h5>Picture Experience.</h5>
                     <p>Impress visitors with a modern and efficient check-in process, creating a positive first impression.
                     </p>
                 </div>
@@ -40,12 +40,12 @@
             <div class="section_1">
 
                 <div class="small_div  ">
-                    <img src="../assets/images/Icon-2.svg" alt="">
+                    <img src="../assets/images/Icon-4.svg" alt="">
                     <h5>Secure Data Management</h5>
                     <p>Ensure the safety and integrity of your data through our secure data management solutions.</p>
                 </div>
                 <div class="small_div  ">
-                    <img src="../assets/images/Icon-1.svg" alt="">
+                    <img src="../assets/images/Icon-5.svg" alt="">
                     <h5>Customizable Solutions</h5>
                     <p>Tailor BookTime to your organization's unique needs with flexible and customizable features.</p>
                 </div>
