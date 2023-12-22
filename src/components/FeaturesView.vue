@@ -11,7 +11,7 @@
                     <!-- <mdb-btn size="lg" tag="a" role="button" href="mailto:hello@booktime.ng" color="deep-purple">Send us a
                         Mail
                         us</mdb-btn> -->
-                    <button class="primary_button">Request a Demo</button>
+                    <!-- <button class="primary_button">Request a Demo</button>  -->
 
                 </div>
                 <img class="animate__animated animate__backInLeft" src="../assets/images/girl.png" alt="">
