@@ -43,7 +43,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     gap: 40px;
 }
@@ -70,12 +70,11 @@ export default {
 // Breathing animation for image
 #breathing_img {
     width: 100%;
-    padding: 12px;
+    // padding: 12px;
     -webkit-animation: breathing 5s ease-out infinite normal;
     font-size: 16px;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    border-radius: 2px;
 }
 
 
@@ -134,7 +133,7 @@ export default {
 @media only screen and (max-width: 1469px) {
 
     .hero_section {
-        width: 85%;
+        width: 90%;
         gap: 40px;
     }
 
