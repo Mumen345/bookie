@@ -1,17 +1,17 @@
 <template>
-    <section class="container accordion accordion--radio">
-        <h1 class="text-center">Frequently Asked Questions</h1>
-        <br />
-        <br />
-        <div class="tab" v-for="question in questions" :key="question.id">
-            <input type="radio" name="accordion-2" :id="question.identity">
-            <label :for="question.for" class="tab__label">{{ question.questions }}
-            </label>
-            <div class="tab__content">
-                <p>{{ question.text }}</p>
+    <div class="entire_container">
+        <section class="container accordion accordion--radio">
+            <h2 class="text-center mt-2 mb-5">Frequently Asked Questions</h2>
+            <div class="tab" v-for="question in questions" :key="question.id">
+                <input type="radio" name="accordion-2" :id="question.identity">
+                <label :for="question.for" class="tab__label">{{ question.questions }}
+                </label>
+                <div class="tab__content">
+                    <p>{{ question.text }}</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </template>
 
 <script>
@@ -120,11 +120,11 @@ p {
     display: flex;
     background: #ffffff;
     cursor: pointer;
-    border-bottom: 1px solid #eeeeee;
     font-family: NunitoMedium;
     color: #353535;
     font-size: 21px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .tab__label {
@@ -163,6 +163,14 @@ p {
 /* Arrow animation */
 .tab input:not(:checked)+.tab__label:hover::after {
     animation: bounce .5s infinite;
+}
+
+.entire_container {
+    background-color: #eff2f5;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 120px;
+    width: 100%;
 }
 
 @keyframes bounce {

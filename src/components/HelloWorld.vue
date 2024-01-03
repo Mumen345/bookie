@@ -2,7 +2,7 @@
   <div class="hello">
     <HeroSection id="home" />
     <FeaturesView id="features" class="mt-5 mb-5" />
-    <FlowingText />
+    <!-- <FlowingText /> -->
     <FaqAccordion id="faq" />
     <FooterView />
   </div>
@@ -11,7 +11,7 @@
 <script>
 import FaqAccordion from './FaqAccordion.vue';
 import FeaturesView from './FeaturesView.vue';
-import FlowingText from './FlowingText.vue';
+// import FlowingText from './FlowingText.vue';
 import FooterView from './FooterView.vue';
 import HeroSection from './HeroSection.vue';
 // import ServicesView from './ServicesView.vue';
@@ -27,7 +27,7 @@ export default {
     FeaturesView,
     FooterView,
     FaqAccordion,
-    FlowingText
+    // FlowingText
   }
 }
 </script>

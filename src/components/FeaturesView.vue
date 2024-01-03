@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div class="margin_top">
+        <h2 class="text-center mt-5 mb-5"> Features you will be getting</h2>
         <div class="first_section">
             <div class="first_container">
                 <h4>{{ one.header }}</h4>
@@ -107,6 +108,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.margin_top {
+    margin-top: 100px !important;
+}
+
 p {
     color: #1c1c1cb3;
     font-style: normal;
@@ -157,7 +162,7 @@ p {
     width: 77%;
     background-color: #eff2f5;
     display: flex;
-    margin: 30px auto;
+    margin: 50px auto;
     padding: 20px 40px 0 40px;
     border-radius: 20px;
 
