@@ -8,8 +8,8 @@
             </router-link>
             <div class="links">
                 <router-link v-scroll-to="{ el: '#services', onDone: onDone, onCancel: onCancel }"
-                    to="/#">Services</router-link> |
-                <router-link v-scroll-to="{ el: '#features', onDone: onDone, onCancel: onCancel }"
+                    to="/#">Solutions</router-link> |
+                <router-link v-scroll-to="{ el: '#benefits', onDone: onDone, onCancel: onCancel }"
                     to="/#">Features</router-link>
                 |
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
@@ -24,8 +24,8 @@
             </router-link>
             <div id="myLinks">
                 <router-link v-scroll-to="{ el: '#services', onDone: onDone, onCancel: onCancel }"
-                    to="/#">Services</router-link>
-                <router-link v-scroll-to="{ el: '#features', onDone: onDone, onCancel: onCancel }"
+                    to="/#">Solutions</router-link>
+                <router-link v-scroll-to="{ el: '#benefits', onDone: onDone, onCancel: onCancel }"
                     to="/#">Features</router-link>
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
@@ -40,10 +40,8 @@
     </div>
 </template>
 <script>
-// import { mdbBtn } from 'mdbvue';
 export default {
     name: 'NavbarPage',
-    // components: { mdbBtn, },
     methods: {
         myFunctiion() {
             var x = document.getElementById("myLinks");

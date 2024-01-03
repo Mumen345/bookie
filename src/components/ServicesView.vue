@@ -1,10 +1,12 @@
 <template>
     <div class="service_section">
         <div class="left_container">
-            <p class="tag_p">Our Services</p>
-            <h3>Discover the Best in Efficient Visit Management with BookTime. </h3>
-            <p>We're not just a platform; we're your dedicated partner in creating a secure, efficient, and welcoming
-                workplace. Sign up now to transform your approach to managing workplace visits!"</p>
+            <!-- <p class="tag_p">Our Services</p> -->
+            <h3>Our Solution</h3>
+            <p>Instead of juggling piles of paperwork, envision a streamlined front desk where one receptionist is all you
+                need. With BookTime, there is no need for a fleet of receptionists.
+                Now, you will only need that warm smile at the front desk, while BookTime takes care of the rest.
+            </p>
             <a href="mailto:info@damdam.com" class="secondary_button">Request a Demo</a>
         </div>
         <div class="right_container">
@@ -12,28 +14,30 @@
 
                 <div class="small_div ">
                     <img src="../assets/images/Icon.svg" alt="">
-                    <h5>Seemless Check-Ins</h5>
-                    <p>Simplify visitor check-ins with our intuitive system, ensuring a seamless entry experience. <br></p>
+                    <h5>Efficient Check-ins</h5>
+                    <p>With BookTime, visitor check-in times are reduced significantly, ensuring a swift and seamless
+                        welcome experience <br></p>
                 </div>
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-1.svg" alt="">
-                    <h5>Automated Scheduling</h5>
-                    <p>Save time and resources by automating appointment scheduling, making the process efficient.</p>
+                    <h5>Precision in Data</h5>
+                    <p>Enjoy a 98% accuracy rate with BookTime, eliminating errors associated with manual entries and
+                        ensuring reliable visitor records</p>
                 </div>
             </div>
             <div class="section_1 ">
 
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-2.svg" alt="">
-                    <h5>Enhanced Security Measure</h5>
-                    <p>Prioritize workplace security with robust measures to safeguard sensitive information.
-
+                    <h5>Enhanced Security</h5>
+                    <p>BookTime employs robust encryption, providing a 360-degree security shield and reducing the risk of
+                        data breaches by 60%
                     </p>
                 </div>
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-3.svg" alt="">
-                    <h5>Picture Experience.</h5>
-                    <p>Impress visitors with a modern and efficient check-in process, creating a positive first impression.
+                    <h5>Visitor Insights</h5>
+                    <p>Gain valuable insights into visitor patterns and preferences, empowering strategic decision-making.
                     </p>
                 </div>
             </div>
@@ -41,13 +45,15 @@
 
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-4.svg" alt="">
-                    <h5>Secure Data Management</h5>
-                    <p>Ensure the safety and integrity of your data through our secure data management solutions.</p>
+                    <h5>Improved Staff Productivity</h5>
+                    <p>Pre-scheduled visits through BookTime eliminate disruptions, contributing to increase in staff
+                        productivity.</p>
                 </div>
                 <div class="small_div  ">
                     <img src="../assets/images/Icon-5.svg" alt="">
-                    <h5>Customizable Solutions</h5>
-                    <p>Tailor BookTime to your organization's unique needs with customizable features.</p>
+                    <h5>Resource Optimization</h5>
+                    <p>BookTime streamlines administrative tasks, saving an average of 10 hours per week, allowing staff to
+                        focus on more impactful responsibilities</p>
                 </div>
             </div>
         </div>
@@ -92,7 +98,7 @@ export default {
     padding: 0 44px;
     border-radius: 30px;
     background-color: #eff2f5;
-    height: 700px;
+    height: 500px;
 }
 
 .left_container h3 {
@@ -150,7 +156,7 @@ export default {
     align-items: flex-start;
     gap: 10px;
     width: 270px;
-    height: 300px;
+    height: 320px;
     // border: 1px solid #eeeeee;
     padding: 30px;
     border-radius: 20px;
