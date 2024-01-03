@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
     <HeroSection id="home" />
-    <ServicesView id="services" />
-    <FeaturesView id="features" />
+    <FeaturesView id="features" class="mt-5 mb-5" />
+    <FlowingText />
     <FaqAccordion id="faq" />
     <FooterView />
   </div>
@@ -11,9 +11,10 @@
 <script>
 import FaqAccordion from './FaqAccordion.vue';
 import FeaturesView from './FeaturesView.vue';
+import FlowingText from './FlowingText.vue';
 import FooterView from './FooterView.vue';
 import HeroSection from './HeroSection.vue';
-import ServicesView from './ServicesView.vue';
+// import ServicesView from './ServicesView.vue';
 
 export default {
   name: 'HelloWorld',
@@ -22,10 +23,11 @@ export default {
   },
   components: {
     HeroSection,
-    ServicesView,
+    // ServicesView,
     FeaturesView,
     FooterView,
-    FaqAccordion
+    FaqAccordion,
+    FlowingText
   }
 }
 </script>

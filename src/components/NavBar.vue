@@ -26,7 +26,7 @@
                 <router-link v-scroll-to="{ el: '#services', onDone: onDone, onCancel: onCancel }"
                     to="/#">Services</router-link>
                 <router-link v-scroll-to="{ el: '#features', onDone: onDone, onCancel: onCancel }"
-                    to="/#">Pricing</router-link>
+                    to="/#">Features</router-link>
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
 
