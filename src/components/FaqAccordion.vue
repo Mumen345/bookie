@@ -46,12 +46,6 @@ export default {
                     },
 
                     {
-                        for: "rd5",
-                        identity: "rd5",
-                        questions: "Is BookTime easy to use on my phone?",
-                        text: "Yes, BookTime works great on your phone, so you can use it on the go.",
-                    },
-                    {
                         for: "rd6",
                         identity: "rd6",
                         questions: "How do I set up automated appointments with BookTime?",

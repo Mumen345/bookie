@@ -27,7 +27,7 @@ body {
 
 .black_button {
   background-color: #000000;
-  width: 150px;
+  width: 80px;
   border: none;
   outline: none;
   color: #ffffff;
@@ -61,7 +61,7 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: bottom;
-  width: 190px;
+  width: 220px;
 }
 
 .secondary_button:hover {

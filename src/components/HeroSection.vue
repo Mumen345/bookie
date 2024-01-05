@@ -10,8 +10,10 @@
                     businesses worldwide
                     that
                     trust Booktime for a secure, efficient, and modern approach to welcoming guests.</p>
-
-                <a href="mailto:info@damdam.com" class="secondary_button">Request a Demo</a>
+                <div class="button_div">
+                    <a href="mailto:info@damdamglobal.com" class="secondary_button">Request a Demo</a>
+                    <CoptText />
+                </div>
             </div>
             <div class="">
                 <img id="breathing_img" class="dashboard" src="../assets/images/hero_img.svg" alt="" srcset="">
@@ -21,7 +23,10 @@
 </template>
 
 <script>
+import CoptText from './CoptText.vue';
+
 export default {
+    components: { CoptText }
 }
 </script>
 
@@ -35,6 +40,15 @@ export default {
     justify-content: center;
     align-items: center;
     margin-top: 60px !important;
+
+}
+
+.button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 
 }
 
@@ -199,6 +213,10 @@ export default {
         font-style: normal;
         font-weight: 500;
         line-height: 200.5%;
+    }
+
+    .button_div {
+        flex-wrap: wrap;
     }
 }
 

@@ -15,7 +15,7 @@
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
             </div>
-            <button class="btn_grad">Login</button>
+            <a href="https://booktime.ng/signup" target="_blank" class="btn_grad">Login</a>
         </div>
         <div class="topnav">
             <router-link v-scroll-to="{ el: '#home', onDone: onDone, onCancel: onCancel }" to="#">
@@ -30,10 +30,10 @@
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
 
-                <button class="btn_grad">Login</button>
+                <a class="btn_grad">Login</a>
 
             </div>
-            <a href="#" class="icon" @click="myFunctiion">
+            <a href="https://booktime.ng/signup" target="_blank" class="icon" @click="myFunctiion">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
