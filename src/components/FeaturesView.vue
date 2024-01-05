@@ -51,6 +51,18 @@
                 <img :src="eight.link" alt="">
             </div>
         </div>
+        <div class="first_section">
+            <div class="first_container white">
+                <h4>{{ nine.header }}</h4>
+                <p>{{ nine.text }}</p>
+                <img :src="nine.link" alt="">
+            </div>
+            <div class="second_container">
+                <h4>{{ ten.header }}</h4>
+                <p>{{ ten.text }}</p>
+                <img :src="ten.link" alt="">
+            </div>
+        </div>
     </div>
 </template>
 
@@ -99,6 +111,16 @@ export default {
                 header: "Data-Driven Decision-Making",
                 text: "BookTime's analytics dashboard provides actionable insights, contributing to increase data-driven decision-making.",
                 link: require('../assets/images/eight.png'),
+            },
+            nine: {
+                header: "Improve work communication ",
+                text: "BookTime's WhatsApp bot ensures smooth communication, allowing staff to easily convey availability for visitor rescheduling and efficiently manage wait times by directly interacting with receptionists.",
+                link: require('../assets/images/nine.png'),
+            },
+            ten: {
+                header: "Leveraging the 24/7 availability of the WhatsApp’s Bot",
+                text: "BookTime's WhatsApp bot ensures smooth communication, allowing staff to easily convey availability for visitor rescheduling and efficiently manage wait times by directly interacting with receptionists.",
+                link: require('../assets/images/ten.png'),
             },
 
 

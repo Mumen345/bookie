@@ -40,6 +40,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin-top: 60px !important;
+    padding-top: 100px;
 
 }
 
