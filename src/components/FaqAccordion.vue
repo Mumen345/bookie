@@ -114,11 +114,15 @@ p {
     display: flex;
     background: #ffffff;
     cursor: pointer;
-    font-family: NunitoMedium;
+    font-family: NunitoBold;
     color: #353535;
-    font-size: 21px;
+    font-size: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+
+p {
+    font-family: NunitoMedium;
 }
 
 .tab__label {

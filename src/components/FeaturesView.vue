@@ -3,62 +3,62 @@
         <h2 class="text-center mt-5 mb-5"> Features you will be getting</h2>
         <div class="first_section">
             <div class="first_container">
-                <h4>{{ one.header }}</h4>
+                <h3>{{ one.header }}</h3>
                 <p>{{ one.text }}</p>
                 <img :src="one.link" alt="">
             </div>
             <div class="second_container">
-                <h4>{{ two.header }}</h4>
+                <h3>{{ two.header }}</h3>
                 <p>{{ two.text }}</p>
                 <img :src="two.link" alt="">
             </div>
         </div>
         <div class="second_section">
             <div class="second_container">
-                <h4>{{ three.header }}</h4>
+                <h3>{{ three.header }}</h3>
                 <p>{{ three.text }}</p>
                 <img :src="three.link" alt="">
 
             </div>
             <div class="first_container white">
-                <h4>{{ four.header }}</h4>
+                <h3>{{ four.header }}</h3>
                 <p>{{ four.text }}</p>
                 <img :src="four.link" alt="">
             </div>
         </div>
         <div class="first_section">
             <div class="first_container">
-                <h4>{{ five.header }}</h4>
+                <h3>{{ five.header }}</h3>
                 <p>{{ five.text }}</p>
                 <img :src="five.link" alt="">
             </div>
             <div class="second_container">
-                <h4>{{ six.header }}</h4>
+                <h3>{{ six.header }}</h3>
                 <p>{{ six.text }}</p>
                 <img :src="six.link" alt="">
             </div>
         </div>
         <div class="second_section">
             <div class="second_container">
-                <h4>{{ seven.header }}</h4>
+                <h3>{{ seven.header }}</h3>
                 <p>{{ seven.text }}</p>
                 <img :src="seven.link" alt="">
 
             </div>
             <div class="first_container white">
-                <h4>{{ eight.header }}</h4>
+                <h3>{{ eight.header }}</h3>
                 <p>{{ eight.text }}</p>
                 <img :src="eight.link" alt="">
             </div>
         </div>
         <div class="first_section">
             <div class="first_container white">
-                <h4>{{ nine.header }}</h4>
+                <h3>{{ nine.header }}</h3>
                 <p>{{ nine.text }}</p>
                 <img :src="nine.link" alt="">
             </div>
             <div class="second_container">
-                <h4>{{ ten.header }}</h4>
+                <h3>{{ ten.header }}</h3>
                 <p>{{ ten.text }}</p>
                 <img :src="ten.link" alt="">
             </div>
@@ -77,8 +77,8 @@ export default {
                 link: require('../assets/images/one.png'),
             },
             two: {
-                header: "Seamless Integration with Existing Systems",
-                text: "BookTime easily integrates with existing office management tools, minimizing disruptions and maximizing productivity",
+                header: "User-Friendly Interface",
+                text: "Enjoy a seamless experience with BookTime's intuitive and user-friendly interface, minimizing training requirements for staff.",
                 link: require('../assets/images/two.png'),
             },
             three: {

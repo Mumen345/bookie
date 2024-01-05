@@ -68,7 +68,10 @@ body {
   opacity: .7;
 }
 
-
+h3 {
+  font-family: NunitoBlack;
+  line-height: 40px;
+}
 
 .btn_grad {
   background-image: linear-gradient(to right, #004C99 0%, #31C580 51%, #004C99 100%);
@@ -227,6 +230,13 @@ h2 {
 
   .primary_button {
     width: 100% !important;
+  }
+
+  .black_button {
+    width: 95%;
+    margin: 0 auto;
+    color: white !important;
+    text-align: center;
   }
 }
 

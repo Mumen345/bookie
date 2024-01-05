@@ -15,7 +15,7 @@
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
             </div>
-            <a href="https://booktime.ng/signup" target="_blank" class="btn_grad">Login</a>
+            <a href="https://booktime.ng/signup" target="_blank" class="black_button elongate_btn">Login</a>
         </div>
         <div class="topnav">
             <router-link v-scroll-to="{ el: '#home', onDone: onDone, onCancel: onCancel }" to="#">
@@ -30,10 +30,10 @@
                 <router-link v-scroll-to="{ el: '#faq', onDone: onDone, onCancel: onCancel }" to="/#">F.A.Q
                 </router-link>
 
-                <a class="btn_grad">Login</a>
+                <a href="https://booktime.ng/signup" class="black_button">Login</a>
 
             </div>
-            <a href="https://booktime.ng/signup" target="_blank" class="icon" @click="myFunctiion">
+            <a target="_blank" class="icon" @click="myFunctiion">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
@@ -87,6 +87,10 @@ export default {
 
 .topnav {
     display: none;
+}
+
+.elongate_btn {
+    width: 200px;
 }
 
 @media only screen and (max-width: 1469px) {
