@@ -180,6 +180,10 @@ p {
     width: 100%;
 }
 
+h3 {
+    text-transform: capitalize;
+}
+
 .second_section {
     width: 77%;
     background-color: #eff2f5;
